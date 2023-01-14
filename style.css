@@ -100,33 +100,113 @@ html {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   gap: 10px;
-  padding: 20px 200px;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .icon img {
   width: 80%;
-  height: 100px;
-  margin-top: 20px;
-  border: 3px solid var(--color-secondary-light);
+  height: 90px;
+  margin-top: 30px;
+  border: 3px solid var(--color-white);
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
-  padding: 5px 20px;
+  padding: 0 20px;
+  margin-bottom: 100px;
 }
 
 /* icon section ends */
 
-
 /* collection section starts  */
 
-.collection{
-width: 70%;
-margin: 0 auto;
+.collection {
+  width: 70%;
+  margin: 0 auto;
 }
 
-.collection-item{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.collection-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.collection-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.collection-list {
+  width: 100%;
+  height: 430px;
+  margin-top: 20px;
+  border: 3px solid var(--color-white);
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.parcent {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0;
+}
+
+.parcent p {
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--color-secondary-light);
+}
+
+.collection h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.collection h4 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.collection p {
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--color-secondary-light);
 }
 
 /* collection section ends  */
+/* <!-- Featured section starts  --> */
 
+.featured {
+  width: 70%;
+  margin: 0 auto;
 
+}
+
+.featured-product {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+margin-top: 100px;
+}
+
+.featured-title{
+    font-weight: 700;
+    font-size: 38px;
+    color: var(--color-footer);
+    margin-bottom: 10px;
+}
+
+.featured-story{
+    font-weight: 700;
+font-size: 15px;
+    color: var(--color-secondary-light);
+    margin-bottom: 10px;
+}
+
+/* <!-- Featured section ends  -->  */
